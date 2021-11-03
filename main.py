@@ -30,7 +30,7 @@ menu(['USD-BRL', 'EUR-BRL', 'EXIT'])
 # FUNCTIONS TO GET THE QUOTATIONS
 
 # making a request to API and getting the response in JSON format
-quote = (requests.get(" https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")).json()
+quote = (requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")).json()
 
 
 def showQuoteDolar():
